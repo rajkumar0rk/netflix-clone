@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&family=Noto+Sans:wght@900&family=Ubuntu&display=swap');
+.banner{
+    height: auto;
+    object-fit: contain ;
+    width: 100%;
+}
+.bannerContant{ 
+ position: absolute;
+    top: 312px;
+    margin-left: 60px;
+    
+}
+.bannerImg{
+    height: 600px;
+    background-image: linear-gradient(180deg,transparent,rgb(37 37 37 / 6%),#141414);
+}
+
+.bannerTitle{
+  font-size: 60px;
+  font-weight: 900;
+  font-family: 'Noto Sans', sans-serif;
+}
+.twoButton{
+  margin-top:10px;
+  margin-left: 10px;
+  
+}
+.buttonStyle{
+  margin: 10px;
+  padding: 8px 30px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: transparent;
+  color: #fff;
+  border-radius: 2px;
+  transition: all 0.2s;
+}
+.buttonStyle:hover{
+  background-color: rgba(250, 250, 250,0.8 );
+  color: #000000;
+}
+
+.bannerDisc{
+  width: 40%;
+  margin-left: 5px;
+ 
+  overflow:hidden;
+  max-height: 8rem;
+  -webkit-box-orient: vertical;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+}
+
+
+

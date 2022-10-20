@@ -1,0 +1,43 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+.navAvatar{
+    max-height: 40px;
+    margin: 10px 20px 8px 0px;
+    margin-top: 10px;
+    object-fit: contain;
+}
+.navLogo{
+    max-height: 90px;
+    margin: 10px 0px 8px 20px;
+    object-fit: contain;
+    
+}
+.navBack{
+    background-color: #141414;
+}
+.navList{
+    list-style: none;
+    display: flex;
+}
+.navFirst{
+    display: flex;
+}
+.navList>li{
+    margin-right: 15px;
+    font-weight: 100;
+    font-size: 15px;
+
+}
+@media only screen and (max-width:543px) {
+    .navList{
+        display: none;
+    }
+}
